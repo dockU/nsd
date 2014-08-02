@@ -1,0 +1,3 @@
+#!/bin/sh
+
+exec /usr/bin/nsd -d -c /srv/nsd/nsd.conf 2>&1
